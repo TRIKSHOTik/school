@@ -9,13 +9,21 @@ body{
     font-weight: 400;
 }
 
+header{
+    background-color: #00BFFF;
+}
+
+main{
+    background-color: #FFF44F;
+}
+
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px 30px;
-    border-bottom: 1px solid #edecea;
+    padding: 20px 10px 20px;
+    border-bottom: 4px solid  	#808080;
     #plus{
         padding-right: 20px;
     }
@@ -23,7 +31,7 @@ nav{
         text-decoration: none;
         color: black;
         &:hover{
-            color: #9b51e0;
+            color: #FF0000;
             transition: 0.3s;
         }
     }
@@ -57,7 +65,7 @@ nav{
     }
     p{
         padding: 10px 0;
-        color: #9b51e0;
+        color: #FF0000;
         font-size: 20px;
     }
 }
@@ -66,8 +74,8 @@ nav{
     padding: 40px 0 30px 20px;
     a{
         text-decoration: none;
-        color: #9b51e0;
-        border: solid #9b51e0 2px;
+        color:  	#FF8000;
+        border: solid  	#FF8000 2px;
         padding: 13px 9px;
         border-radius: 32px;
         font-size: 18px;
@@ -106,6 +114,7 @@ nav{
 .plus{
     padding: 20px 0 0 20px;
     font-size: 18px;
+    padding-bottom: 600px;
 }
 
 .pluses{
@@ -131,6 +140,7 @@ nav{
 
 .text-facts{
     padding: 50px 10px 0;
+    padding-bottom: 40px;
 }
 
 #facts-h1{
